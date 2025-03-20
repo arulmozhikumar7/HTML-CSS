@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+}
+
+.card {
+    width: 210px;
+    padding: 0.4em;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+.card-image {
+    margin: 0 auto;
+    background-color: rgb(236, 236, 236);
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+
+.title {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+    transition: color 0.3s ease;
+}
+
+
+
+.description {
+    font-weight: 600;
+    color:  black;  
+    padding: 7px;
+    transition: color 0.3s ease;
+}
+
+
+
+.author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+}
+
+.name {
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.name:hover {
+    color: rgb(63, 121, 230);
+}
